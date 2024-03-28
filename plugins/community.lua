@@ -5,12 +5,12 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- themes
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   
   -- apprance
-  { import = "astrocommunity.color.transparent-nvim" },
+  -- { import = "astrocommunity.color.transparent-nvim" },
   
   -- line
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
