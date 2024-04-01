@@ -16,4 +16,10 @@ return {
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
+
+  -- cmdline
+  { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.completion.cmp-cmdline" },
+  { import = "astrocommunity.motion.nvim-surround" },
+
 }

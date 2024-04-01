@@ -4,6 +4,10 @@
 -- lower level configuration and more robust one. (which-key will
 -- automatically pick-up stored data by this setting.)
 return {
+  ----------------------------------------------------
+  --------------- NORMAL MODE MAPPINGS ---------------
+  ----------------------------------------------------
+
   -- first key is the mode
   n = {
     -- second key is the lefthand side of the map
@@ -32,9 +36,21 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ---
+    -- map W to :w
+    S = { ":w<CR>", desc = "Save file" },
+    -- map Q to :q
+    Q = { ":q<CR>", desc = "Quit Neovim" },
   },
+
+  ----------------------------------------------------
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
-}
+
+  ----------------------------------------------------
+  --------------- INSERT MODE MAPPINGS ---------------
+  ----------------------------------------------------
+
+  }  
